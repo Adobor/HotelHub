@@ -3,12 +3,12 @@
    margin: 0;
 }
 .header-carosoul{
-   background-size: cover;
+    background-size: cover;
    background-repeat:no-repeat;
    background-image:url("./imaghub/bars.jpg");
    width: 100%;
-   height: 700px;
-   opacity:100% ;
+   height: 800px;
+   opacity:1;
 
 }
 header{
@@ -34,6 +34,17 @@ ul{
 ul:hover{
 opacity:2;
 }
+.textheader h3{
+   animation: spin 5s infinite;
+}
+@keyframes spin{
+   from {
+     transform: rotate(0deg);
+   }
+   to {
+     transform: rotate(360deg);
+   }
+ }
 .logo{
    width: 50%;
    height: 120px;
@@ -62,11 +73,22 @@ a{
    width: 93%;
    margin: auto;
    height: 80px;
+   animation: mymove 5s infinite;
 }
+
 .textheader1{
    text-align: center;
    width: 80%;
    background-color: black;
+   margin: auto;
+}
+body{
+   width: 100%;
+   background-color:cornsilk;
+
+}
+section{
+   width: 88%;
    margin: auto;
 }
 .divider{
@@ -104,10 +126,11 @@ input{
    /* gap:19px; */ 
 }
 p .chk{
-   width: 230px;
+   width:160px;
    padding: 15px;
    border: 2px solid white;
-   background-color: black;    
+   background-color: black;  
+   color:white  
 }
 button{
    width: 100px;
@@ -375,7 +398,7 @@ display: flex;
 .infos .info1{
    width: 100%;
    height: 450px;
-   background-color: green;
+   background-color: wheat;
 }
 .infos{
 display:grid;
@@ -407,4 +430,8 @@ display: flex;
    width:auto;
    
    border: 2px solid salmon;
+}
+.fotimg img{
+   width: 70px;
+   height: 70px;
 }

@@ -9,13 +9,14 @@
       integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="hotel.css">
+   <link rel="stylesheet" href="hotelmedia.css">
    <title>Vision17</title>
 </head>
 
 <body>
    <section>
 
-      <div class="header-carosoul" style="top: 253px; visibility: visible;">
+      <div class="header-carosoul">
 
 
          <div class="header">
@@ -28,7 +29,7 @@
                      <li><a href="#">Standard Room</a></li>
                   </ul>
                </li>
-               <li><a href="#"><img class="logo" src="./imaghub/logo1.png" alt="logo1"> </a></li>
+               <li><a href="#"><img class="logo" src="./imaghub/LOGO.JPG" alt="logo1"> </a></li>
                <li><a href="#">ABOUT</a> </li>
                <li><a href="#">CONTACT</a> </li>
             </ul>
@@ -36,43 +37,44 @@
       </div>
 
       <!-- <div class="textmainb"> -->
-         <div class="textheader1">
-            <div class="textheader">
-               <h3>Book your stay</h3>
-            </div>
-            <div class="divider"></div>
-            <form>
-               <div class="frmwk">
-
-
-                  <p>
-                     <label for="checkin">Check-in
-                        <abbr>*</abbr>..</label>
-                     <br>
-                     <input class="chk" type="datetime" name="checkin" placeholder="Cheak-in Date" value="" required>
-                  </p>
-                  <p>
-                     <label for="checkin">Check-Out*..</label><br>
-                     <input class="chk" type="datetime" name="checkout" placeholder="Cheak-out Date" value="" required>
-                  </p>
-
-                  <p class="personal">
-                     <label for="Adult">Adults</label><br>
-                     <input type="number" name="checkout" placeholder="1" value="">
-                  </p>
-                  <p class="personal">
-                     <label for="Children">Children</label><br>
-                     <input type="number" name="checkout" placeholder="0" value="">
-                  </p>
-
-                  <p class="btnp">
-                     <button type="search">Search..<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-                  </p>
-               </div>
-
-            </form>
-
+      <div class="textheader1">
+         <div class="textheader">
+            <h3 class="lik">Book your stay </h3>
          </div>
+         <div class="divider"></div>
+         <form>
+
+            <div class="frmwk">
+
+               <p>
+                  <label for="checkin">Check-in
+                     <abbr>*</abbr>..</label>
+                  <br>
+                  <input class="chk" type="datetime-local" name="checkin" placeholder="Cheak-in Date" value="" required>
+               </p>
+               <p>
+                  <label for="checkin">Check-Out*..</label><br>
+                  <input class="chk" type="datetime-local" name="checkout" placeholder="Cheak-out Date" value=""
+                     required>
+               </p>
+
+               <p class="personal">
+                  <label for="Adult">Adults</label><br>
+                  <input type="number" name="checkout" placeholder="1" value="">
+               </p>
+               <p class="personal">
+                  <label for="Children">Children</label><br>
+                  <input type="number" name="checkout" placeholder="0" value="">
+               </p>
+
+               <p class="btnp">
+                  <button type="search">Search..<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+               </p>
+            </div>
+         
+         </form>
+
+      </div>
 
       <!-- </div> -->
 
@@ -125,8 +127,8 @@
          <div class="flosimg4"><img class="imgsss" src="./imaghub/RM7.jfif" alt="">
             <div class="mol4">Standard Room<i class="fa-solid fa-naira-sign"></i>30,000 Per Night </div>
          </div>
-
       </div>
+
       <div class="spacediv"></div>
       <div class="flows">
          <h1>Vision 17 Hotel is, located in the heart of ikorodu</h1>
@@ -136,7 +138,7 @@
          <button href=""> Lean More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
       </div>
       <div class="freeworld">
-         <div>
+         
             <span><i class="fa-solid fa-apple-whole"></i>
                <p>complimentary Breakfast</p>
             </span>
@@ -149,7 +151,7 @@
             <span><i class="fa-solid fa-face-laugh-wink"></i>
                <p>Cozy Suites -Happy Customers</p>
             </span>
-         </div>
+         
       </div>
       <div class="info">
          <div class="info1">
@@ -165,7 +167,13 @@
       </div>
       <div class="infos">
          <div class="info1">
-            <p>MAP FOR DIRECTION HERE</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31708
+            .566317403714!2d3.5979795999999995!3d6.57572545!2m3!1f0!2f0!3f0!
+            3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103be56b
+            20a95ab1%3A0xef2d538d8c2950a1!2s104102%2C%20Ije
+            de!5e0!3m2!1sen!2sng!4v1647298265037!5m2!1sen!2s
+            ng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" alt="GOOGLE MAP">
+            </iframe>
          </div>
          <div class="info1x">
             <h2>vision17 Hotel</h2>
@@ -182,8 +190,8 @@
       </div>
    </section>
    <div class="footer">
-      <div>
-         <img src="./imaghub/logo1.png" alt="">
+      <div class="fotimg">
+         <img src="./imaghub/LOGO.JPG" alt="">
       </div>
       <div>
          <p>1, solomon Ados street, off okada road, ikorodu,
