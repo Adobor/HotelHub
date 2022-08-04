@@ -10,3 +10,13 @@ function mov() {
 function scrol() {
     document.getElementsByClassName('carosoul')
 } document
+
+
+// let daysin = document.getElementById('#daysin').value;
+// let daysout = document.getElementById('#daysout').value;
+// let dayspent = daysout - daysin;
+// document.getElementById('#spent').innerHTML = daysin - daysout;
+
+
+
+

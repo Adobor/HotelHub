@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./imaghub/RM2.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 80%;
+}
+
+.formbody {
+    margin: auto;
+    width: 50%;
+    background-color: rgba(52, 141, 192, 0.87);
+    border-radius: 10px;
+    line-height: 34px;
+    box-shadow: 2px 5px 5px 6px pink;
+}
+
+.header {
+    text-align: center;
+    background-color: rgb(56, 230, 40);
+    height: 50px;
+    border-radius: 5px;
+}
+
+.formbody input {
+    margin-left: 40px;
+    background-color: rgb(150, 238, 142);
+    position: relative;
+    right: -35px;
+}
+
+input {
+    height: 30px;
+    width: 284px;
+    border-radius: 5px;
+}
+
+.formbody select {
+    margin-left: 40px;
+    background-color: rgb(56, 230, 40);
+    position: relative;
+    right: -35px;
+    color: white;
+}
+
+select {
+    height: 30px;
+    border-radius: 5px;
+}
+
+#daysout {
+
+    margin-left: 40px;
+    background-color: rgb(56, 230, 40);
+    position: relative;
+    right: -380px;
+    height: 30px;
+    width: 284px;
+    border-radius: 5px;
+}
